@@ -1,0 +1,12 @@
+ÖRNEK-1
+
+static void Main(string[] args)
+        {
+            bool bVal = true;
+            if (bVal)//değeri "true" ise
+                Console.WriteLine("doğru");
+            else// değeri "false" ise
+                Console.WriteLine("Yanlış");
+            Console.WriteLine();
+            Console.ReadKey();
+        }
